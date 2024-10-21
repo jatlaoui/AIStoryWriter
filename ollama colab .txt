@@ -1,0 +1,7 @@
+!pip install colab-xterm %load_ext colabxterm
+%xterm
+
+curl -fsSL https://ollama.com/install.sh | sh
+
+
+ollama serve & ollama pul qwen2.5:0.5b
