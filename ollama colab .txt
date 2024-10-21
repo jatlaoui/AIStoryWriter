@@ -5,3 +5,5 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 
 ollama serve & ollama pul qwen2.5:0.5b
+
+!python Write.py -Prompt /content/AIStoryWriter/ExamplePrompts/Example1.txt
