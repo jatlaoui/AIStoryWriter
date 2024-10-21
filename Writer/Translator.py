@@ -3,7 +3,7 @@ import Writer.Config
 import Writer.Prompts
 
 
-def TranslatePrompt(Interface, _Logger, _Prompt: str, _Language: str = "French"):
+def TranslatePrompt(Interface, _Logger, _Prompt: str, _Language: str = "arabic"):
 
     Prompt: str = Writer.Prompts.TRANSLATE_PROMPT.format(
         _Prompt=_Prompt, _Language=_Language
@@ -20,7 +20,7 @@ def TranslatePrompt(Interface, _Logger, _Prompt: str, _Language: str = "French")
 
 
 def TranslateNovel(
-    Interface, _Logger, _Chapters: list, _TotalChapters: int, _Language: str = "French"
+    Interface, _Logger, _Chapters: list, _TotalChapters: int, _Language: str = "arabic"
 ):
 
     EditedChapters = _Chapters
